@@ -6,7 +6,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
-    background-color: #fdd3d3;
+    background-color: #fcc6c6;
     color: #080808;
 }
 main{
@@ -16,26 +16,26 @@ main{
 section{
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #faadad;
+    background-color: #fcc6c6;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-navbar{
+.navbar{
     display: flex;
     gap: 20px;
-    background-color: #f87070;
+    background-color: #fac6c6;
     padding: 15px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
-nav-links{
-    lifet-style: none;
+.nav-links{
+    list-style: none;
     display: flex;
     gap: 20px;
 }
 nav a{
-    color: #fff;
+    color: #070707;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -45,11 +45,11 @@ nav a{
 }
 nav a:hover{
     background-color: #e1e4e8;
-    color: #f87070;
+    color: #fcc6c6;
 }
 h2{
     font-size: 24px;
-    color: #333;
+    color: #050505;
     margin-bottom: 20px;
     border-bottom: 2px solid #e1e4e8;
     padding-bottom: 5px;
@@ -60,8 +60,8 @@ h2{
     gap: 30px;
 }
 .project-card{
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: #fcc6c6;
+    border: 1px solid #fcc6c6;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -80,7 +80,7 @@ h2{
     font-size: 20px;
     font-weight: bold;
     background-color: #e1e4e8;
-    color: #333;
+    color: #030303;
     padding: 5px 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -88,18 +88,19 @@ h2{
 .project-card h3{
     font-size: 1.3rem;
     margin:0 0 10px 0;
-    color: #f87070;
+    color: #fcc6c6;
 
 }
 .project-card p{
     font-size: 1rem;
     color: #030000;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 .button-github{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f87070;
+    background-color: #fcc6c6;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -110,7 +111,7 @@ h2{
 }
 .button-github:hover{
     background-color: #e1e4e8;
-    color: #f87070;
+    color: #fcc6c6;
 }
 .testimonials-container{
     display: grid;
@@ -119,7 +120,7 @@ h2{
 }
 .testimonial-card{
     background-color: #f9f9f9;
-    border-left: 5px solid #f87070;
+    border-left: 5px solid #fcc6c6;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -137,7 +138,7 @@ h2{
 }
 .testimonial-card.role{
     font-weight: bold;
-    color: #f87070;
+    color: #fcc6c6;
 }
 .testimonial-card:hover{
     transform: translateY(-5px);
