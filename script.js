@@ -24,3 +24,27 @@ myTestimonials.forEach((item) => {
     `;
     container.appendChild(card);
 });
+const myProjects = [
+    {
+        tag: "HTML, CSS, Git",
+        title: "Bakhita Portfolio",
+        description: "A personal portfolio website showcasing my skills and projects.",
+    },
+    {
+        tag: "JavaScript",
+        title: "Dynamic Testimonial Component",
+        description: "An interactive section that renders testimonials dynamically using JavaScript.",
+    }
+];
+const projectContainer = document.getElementById("project-container");
+
+myProjects.forEach((project) => {
+    const projectCard = document.createElement("div");
+    projectCard.classList.add("project-card");
+    projectCard.innerHTML = `
+        <span class="tag">${project.tag}</span>
+        <h3 class="title">${project.title}</h3>
+        <p class="description">${project.description}</p>
+    `;
+    projectContainer.appendChild(projectCard);
+});
