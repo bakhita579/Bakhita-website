@@ -28,5 +28,6 @@ cd Bakhita-website
     2. If you are using VS code click the **Go live Button** on the right and select open with live server
 
 # lesson learnt
+​Building this portfolio gave me practical, hands-on experience with managing Git workflows, handling version control challenges, and dynamically rendering page components using JavaScript DOM manipulation. It truly bridged the gap between writing code locally and launching a fully deployed web application.
 
 
