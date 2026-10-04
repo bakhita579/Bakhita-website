@@ -50,6 +50,8 @@ section{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .contact-link{
+    font-size: 1.2rem;
+    font-weight: bold;
     color: #070707;
     text-decoration: none;
     font-weight: bold;
@@ -190,6 +192,16 @@ h2{
         grid-template-columns: 1fr;
     }
 
+}
+@media (max-width: 480px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 section{
