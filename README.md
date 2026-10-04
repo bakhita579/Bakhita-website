@@ -18,8 +18,15 @@ To run run this project i your local machine, follow the following steps.
 ```bash
 git clone: https://github.com/bakhita579/Bakhita-website
 ```
-2.  **Open the project folder in your code editor such as VS code.**
-3. **Run with a live server**
+2. **Navigate into the project directory**
+```Bash
+cd Bakhita-website
+```
+3.  **Open the project folder in your code editor such as VS code.**
+4.  **Run with a live server**
     1. Open the index.html file
     2. If you are using VS code click the **Go live Button** on the right and select open with live server
+
+# lesson learnt
+
 
