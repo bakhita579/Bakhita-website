@@ -26,6 +26,17 @@ section{
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-card{
+    background-color: #fcc6c6;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 .navbar{
     display: flex;
     justify-content: right;
@@ -152,6 +163,7 @@ h2{
     transform: translateY(-5px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
+
 section{
     scroll-behavior: smooth;
 }
