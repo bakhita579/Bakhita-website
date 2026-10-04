@@ -37,6 +37,16 @@ section{
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.contact-link{
+    color: #070707;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.contact-link:hover{
+    color: #e1e4e8;
+    
+}   
 .navbar{
     display: flex;
     justify-content: right;
