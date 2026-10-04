@@ -12,5 +12,14 @@ https://github.com/bakhita579/Bakhita-portfolio
 * CSS - for styling, custom properties and responsive grid design.
 * JavaScript - for dynamic element generation and DOM manipulation.
 * Github - for version control and deployment via Github pages.
-
+# How to run locally 
+To run run this project i your local machine, follow the following steps.
+1. **Clone the repository on your terminal**
+```bash
+git clone: https://github.com/bakhita579/Bakhita-website
+```
+2.  **Open the project folder in your code editor such as VS code.**
+3. **Run with a live server**
+    1. Open the index.html file
+    2. If you are using VS code click the **Go live Button** on the right and select open with live server
 
