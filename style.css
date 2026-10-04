@@ -15,6 +15,12 @@ header{
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+h2{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #070707;
+    margin-bottom: 20px;
+}
 main{
     max-width: 800px;
     margin: 0 auto;
@@ -177,7 +183,7 @@ h2{
     .project-container, .testimonials-container{
         grid-template-columns: 1fr;
     }
-    
+
 }
 
 section{
