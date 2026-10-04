@@ -7,5 +7,10 @@ https://github.com/bakhita579/Bakhita-portfolio
 * Dynamic content rendering - uses JavaScript array and DOM manipulation to inject project cards and testimonials dynamically.
 * Responsive design - built using CSS grid and flexbox to look great on both mobile and desktop screens.
 * Interactive elements - hover effects, structured layout cards and direct links to the Github repositories.
+# Technologies used
+* HTML - for structuring content and semantic layout.
+* CSS - for styling, custom properties and responsive grid design.
+* JavaScript - for dynamic element generation and DOM manipulation.
+* Github - for version control and deployment via Github pages.
 
 
