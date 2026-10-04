@@ -21,6 +21,12 @@ h2{
     color: #070707;
     margin-bottom: 20px;
 }
+p{
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #070707;
+    margin-bottom: 20px;
+}
 main{
     max-width: 800px;
     margin: 0 auto;
