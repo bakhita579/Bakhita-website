@@ -1,57 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOSEPHINE BAKHITA</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakhita &amp; Mumbua | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1> BAKHITA & MUMBUA</h1>
-        <p>Welcome to our website</p>
-   
-    <nav class= "navbar">
-        <ul class="nav-links">
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-        </ul>
-    </nav> 
-    </header> 
-    <section id="testimonials">
+
+  <header class="header" id="top">
+    <nav class="container nav">
+      <a href="#top" class="logo">Bakhita <span>&amp;</span> Mumbua</a>
+      <ul class="nav-links">
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <div class="container hero">
+      <h1>Welcome to our website</h1>
+      <p>We build clean, simple websites with HTML, CSS and JavaScript. Take a look at our work below.</p>
+      <a href="#projects" class="button">View our projects</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="testimonials">
+      <div class="container">
         <h2>Testimonials</h2>
-        <p>Here are some testimonials from my clients and colleagues.</p>
-        <div id="testimonial-container">
-            <div id="testimonial-card">
-            </div>
-        </div>
+        <p class="section-text">Here are some testimonials from our clients and colleagues.</p>
+        <div class="testimonials" id="testimonial-list"></div>
+      </div>
     </section>
-    <section id="projects" >
+
+    <section class="section section-light" id="projects">
+      <div class="container">
         <h2>Projects</h2>
-        <p>Here are some of my recent projects.</p>
-        
-        <div id="project-container">
-            <div id="project-card">
-            </div>
-        </div>
+        <p class="section-text">Here are some of our recent projects.</p>
+        <div class="projects" id="project-list"></div>
+      </div>
     </section>
-    <section id="contacts">
+
+    <section class="section contacts" id="contacts">
+      <div class="container">
         <h2>Contacts</h2>
-        <div id="contact-container">
-            <p>Here are some ways to get in touch with me.</p>
-            <div id="contact-card">
-                 <p>
-                 I'd love to hear from you. you can contact me using
-                the information below.
-            </p>
-           <div class="contact-links">
-        <span>josephine.bakhita@student.moringaschool.com</span> 
-        <p>Github: <a href="https://github.com/bakhita579" target="_blank">github.com/bakhita579</a></p>
-      
-        
-            </div>
+        <p class="section-text">We'd love to hear from you. You can reach us using the details below.</p>
+        <div class="contact-links">
+          <a href="mailto:josephine.bakhita@student.moringaschool.com" class="contact-card">
+            <span class="contact-label">Email</span>
+            josephine.bakhita@student.moringaschool.com
+          </a>
+          <a href="mailto:belter.codes@gmail.com" class="contact-card">
+            <span class="contact-label">Email</span>
+            belter.codes@gmail.com
+          </a>
+          <a href="https://github.com/bakhita579" target="_blank" class="contact-card">
+            <span class="contact-label">GitHub</span>
+            github.com/bakhita579
+          </a>
+            <a href="https://github.com/skysparl" target="_blank" class="contact-card">
+              <span class="contact-label">GitHub</span>
+              github.com/skysparl
+            </a>
         </div>
-<script src="script.js"></script>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Bakhita &amp; Mumbua</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
